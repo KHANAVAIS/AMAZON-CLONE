@@ -1,0 +1,257 @@
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left:none;
+}
+.logo{
+    
+  background-image: url(images/amazon_logo.png);
+   width: 100px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+.boundary{
+    border: 2px solid transparent;
+}
+
+.boundary:hover{
+    border: 1px solid white;
+}
+/* second box */
+.add-first{
+color: #cccccc;
+}
+.add-second{
+color: #ffffff;
+font-weight: bold;
+}
+.add-icon{
+    display: flex;
+    text-align: center;
+}
+.nav-address{
+   margin:5px 2px 5px 0px;
+   padding: 0px 9px;
+}
+/* third box */
+.nav-search{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 550px;
+    background-color: pink;
+    border-radius: 5px;
+    /* margin: 0px 10px;
+    padding: 10px 4px 10px 3px; */
+}
+select{
+    color: black;
+    background-color: #ffffff;
+    width: 50px;
+    text-align: center;
+    /* justify-content: center; */
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    margin-right: 0.1px;
+    border: none;
+
+}
+.search-input{
+    width: 550px;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content:center ;
+align-items: center;
+border: none;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box four */
+span{
+    color: #ffffff;
+    font-size: 12px;
+}
+.nav-second{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* box  six */
+.cart{
+    display: flex;
+}
+.cart i{
+    font-size:30px;
+    color: white;
+    
+}
+.cart {
+font-size: 14px;
+/* margin-top: 28px; */
+width: 15px;
+font-weight: 700;
+
+}
+/* panel  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+.panel-all{
+    margin-left: 15px;
+    width: 58px;
+    padding: 8px 9px;
+    color: aliceblue;
+   
+
+}
+.panel-option{
+    display: flex;
+    width: 70%;
+    /* justify-content: space-evenly; */
+    border: 2px solid transparent;
+    
+}
+.panel-deals{
+margin-left: 150px;
+float: right;
+padding: 6px 7px;
+color: #ffffff;
+font: 900;
+}
+
+.panel-option p {
+    border: 1px solid transparent;
+    padding: 6px 7px; 
+    margin-left: 5px;
+    color: aliceblue;
+    /* display:inline; */
+    /* justify-content: space-evenly; */
+
+}
+.panel-option p:hover {
+    border: 1px solid #ffffff;
+    padding: 6px 7px;
+}
+
+
+
+.hero-section{
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    width: 95%;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+
+}
+.shop-section{
+display: flex;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+flex-wrap: wrap;
+
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 22.5%;
+    background-color:#eaecec;
+    padding: 20px 0px 15px;
+    margin: 1rem;
+    box-shadow: 2px 2px 3px 2px grey;
+    border-radius: 5px;
+}
+.box1-img{
+     background-size: cover; 
+     height: 260px;
+     margin-top: 1rem;
+     margin-bottom: 1.3rem;
+     /* margin-top: ; */
+    } 
+
+.box-content{
+margin-left:1rem;
+margin-right: 1rem;
+
+}
+.box-content p{
+    border: 2px solid transparent; 
+    color: #007185;
+   
+}
+.box-content p:hover{
+   /* border: 0.02px solid #007185; */
+    /* background-color: ; */
+    display: inline;
+    color: rgb(221, 95, 95);
+    border-radius: 6px;
+}
+
+.box-content h2:hover{
+    color: rgb(233, 122, 122);
+    opacity: 10;
+}
+.box1-img:hover{
+    box-shadow: 1px 2px 1px 2px  rgb(201, 190, 190);
+}
+
+
+
+
+.license{
+    background-color:rgb(36, 34, 34);
+    height: 200px;
+    color: white;
+}
+.license p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.license p span{
+    color: #007185;
+    font-size: 24px;
+}
+
